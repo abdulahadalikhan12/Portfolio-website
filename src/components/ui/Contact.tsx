@@ -27,7 +27,7 @@ export default function Contact() {
             </p>
             <div className="inline-block pointer-events-auto z-10 relative">
               <MagneticButton 
-                onClick={() => window.open('https://drive.google.com/file/d/1hwxkPGsJ8OolgICICIzB09HvUg7zJVGW/view?usp=sharing', '_blank')}
+                onClick={() => window.open('https://drive.google.com/file/d/1HJEU14ukBhoONVpnIuSwTJAXaj2yoP3Q/view?usp=sharing', '_blank')}
                 className="bg-white text-black hover:bg-neutral-200 shadow-[0_0_40px_rgba(255,255,255,0.15)]"
               >
                 <div className="block px-10 py-5 w-full h-full font-semibold text-lg cursor-pointer">

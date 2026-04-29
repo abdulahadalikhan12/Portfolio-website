@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Abdul Ahad Ali Khan — Portfolio
 
-## Getting Started
+🌐 **Live:** [abdulahad.website](https://abdulahad.website)
 
-First, run the development server:
+A cinematic, scroll-driven portfolio built to showcase AI/ML engineering work — featuring frame-by-frame video animation, smooth physics-based scrolling, and interactive project modals.
+
+---
+
+## ✨ Features
+
+- **Scroll-Driven Cinematic Hero** — Frame-by-frame WebP sequence animated in sync with scroll position via HTML Canvas.
+- **Smooth Scroll Physics** — Powered by [Lenis](https://github.com/darkroomengineering/lenis) for buttery-smooth inertia scrolling.
+- **Interactive Project Modals** — Glassmorphism overlays with Framer Motion animations, complete with project details, tech stacks, and live/repo links.
+- **Magnetic Hover Buttons** — Spring-physics driven buttons that follow your cursor.
+- **Responsive Design** — Fully optimized for desktop, tablet, and mobile viewports.
+- **Dark Premium Aesthetic** — Deep blacks, subtle gradients, and orange accent highlights throughout.
+
+---
+
+## 🛠 Tech Stack
+
+| Layer        | Technology                          |
+| ------------ | ----------------------------------- |
+| Framework    | Next.js 14 (App Router)             |
+| Language     | TypeScript                          |
+| Styling      | Tailwind CSS                        |
+| Animation    | Framer Motion                       |
+| Smooth Scroll| Lenis                               |
+| Canvas       | HTML5 Canvas API                    |
+| Deployment   | Vercel                              |
+
+---
+
+## 🚀 Getting Started
 
 ```bash
+# Clone the repository
+git clone https://github.com/abdulahadalikhan12/Portfolio-website.git
+cd Portfolio-website
+
+# Install dependencies
+npm install
+
+# Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view it locally.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📁 Project Structure
 
-## Learn More
+```
+src/
+├── app/                  # Next.js App Router pages & layout
+├── components/
+│   ├── canvas/           # ScrollyCanvas (frame sequence engine)
+│   ├── providers/        # SmoothScrollProvider (Lenis)
+│   └── ui/               # Navbar, ProjectsGrid, Skills, Experience, Contact, etc.
+public/
+└── sequence/             # WebP frame sequence for hero animation
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📬 Contact
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Email:** abdulahadalikhan12@gmail.com
+- **LinkedIn:** [Abdul Ahad Ali Khan](https://www.linkedin.com/in/abdul-ahad-ali-khan/)
+- **GitHub:** [abdulahadalikhan12](https://github.com/abdulahadalikhan12)
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📄 License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is open source and available under the [MIT License](LICENSE).
