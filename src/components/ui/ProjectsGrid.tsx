@@ -3,12 +3,15 @@
 import { motion, useMotionValue, useSpring, useTransform, AnimatePresence } from 'framer-motion'
 import { useRef, useState, useEffect } from 'react'
 
+import cloudIntelligenceImg from '../project_images/cloud_intelligence_Platform.png'
+import nexusHealthImg from '../project_images/nexus_health.png'
+import credAiImg from '../project_images/cred-ai.png'
 const projects = [
   { 
     id: 1, 
     title: 'Cloud Intelligence Platform', 
     category: 'MLOps & CI/CD', 
-    image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1200&auto=format&fit=crop', 
+    image: cloudIntelligenceImg.src, 
     date: 'Oct 2025 – Dec 2025',
     mainLink: 'https://cloud-intelligence-platform.abdulahadalikhan12.workers.dev/',
     repoLink: 'https://github.com/abdulahadalikhan12/Cloud-Intelligence-Platform',
@@ -25,7 +28,7 @@ const projects = [
     id: 2, 
     title: 'Nexus Health Intel', 
     category: 'Agentic Healthcare', 
-    image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=1200&auto=format&fit=crop', 
+    image: nexusHealthImg.src, 
     date: 'Apr 2026',
     mainLink: 'https://nexus-health-intel.vercel.app/',
     repoLink: 'https://github.com/abdulahadalikhan12/Nexus-Health-Intel_',
@@ -41,7 +44,7 @@ const projects = [
     id: 3, 
     title: 'Cred AI', 
     category: 'Fintech & AI Scoring', 
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200&auto=format&fit=crop', 
+    image: credAiImg.src, 
     date: 'Ongoing',
     mainLink: 'https://cred-ai-giki.vercel.app/',
     repoLink: 'https://github.com/M-Nabeegh/cred-ai-giki',

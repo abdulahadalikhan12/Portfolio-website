@@ -31,7 +31,7 @@ export default function Contact() {
                 className="bg-white text-black hover:bg-neutral-200 shadow-[0_0_40px_rgba(255,255,255,0.15)]"
               >
                 <div className="block px-10 py-5 w-full h-full font-semibold text-lg cursor-pointer">
-                  Access Resumé ↗
+                  Access Resumé
                 </div>
               </MagneticButton>
             </div>
