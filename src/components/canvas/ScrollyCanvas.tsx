@@ -174,7 +174,7 @@ export default function ScrollyCanvas({ frameCount }: { frameCount: number }) {
                         animate={{ opacity: sec3VisibleNav ? 1 : 0, y: sec3VisibleNav ? 0 : -100 }}
                         transition={{ duration: 0.6, ease: "easeOut" }}
                         style={{ display: sec3HasShown || sec3VisibleNav ? "flex" : "none" }}
-                        className="absolute inset-0 flex-col items-end justify-center text-right pr-12 md:pr-24"
+                        className="absolute inset-0 flex-col items-start md:items-end justify-center text-left md:text-right pl-12 pr-12 md:pl-24 md:pr-24"
                     >
                         <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 max-w-3xl text-white drop-shadow-[0_4px_12px_rgba(0,0,0,0.8)]">
                             From ML models to scalable systems.
